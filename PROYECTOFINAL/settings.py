@@ -39,7 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'apuntes',
     'perfiles',
-    "Templates"
+    'crispy_forms',
+    'crispy_bootstrap5',
+    'ckeditor'
 ]
 
 

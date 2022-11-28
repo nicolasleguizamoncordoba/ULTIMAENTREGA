@@ -12,7 +12,7 @@
 <form method="POST" class="w-50">
     {% csrf_token %}
 
-    {{form|crispy}}
+    {{forms| crispy}}
 
     <span><a class='btn btn-outline-secondary m-1' href="{{request.META.HTTP_REFERER}}">Cancelar</a><input class="btn btn-primary" type="Submit" value="Guardar"></span> 
 </form>
