@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load crispy_forms_filters %}
 {% load crispy_forms_tags %}
 
 
@@ -12,7 +13,7 @@
 <form method="POST" class="w-50">
     {% csrf_token %}
 
-    {{forms| crispy}}
+    {{form| crispy}}
 
     <span><a class='btn btn-outline-secondary m-1' href="{{request.META.HTTP_REFERER}}">Cancelar</a><input class="btn btn-primary" type="Submit" value="Guardar"></span> 
 </form>
