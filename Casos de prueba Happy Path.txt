@@ -1,0 +1,11 @@
+Dado un usuario
+Cuando coloque alguna tecnologia en el apartado de buscar
+Entonces debera aparecer la tecnologia mencionada.
+
+Dado el mismo usuario anterior
+Cuando ya haya encontrado la tecnologia deseada
+Entonces podra presionar sobre el boton "ver mas" para poder acceder a la informacion de la misma
+
+Dado un usuario administrador
+Cuando presione el boton de Log Out
+Entonces debera desloguearse de la sesion como administrador
