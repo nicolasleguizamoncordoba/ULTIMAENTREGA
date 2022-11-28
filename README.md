@@ -1,6 +1,6 @@
 # ULTIMA ENTREGA
 
-Trabajo final Python 2022 Coderhouse
+Trabajo final Python 2022 CoderHouse
 
 Alumnos:
 Milagros Nuñez
